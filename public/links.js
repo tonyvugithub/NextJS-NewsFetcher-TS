@@ -33,7 +33,7 @@ export const socialLinks = [
 
 export const projectLinks = [
   {
-    href: 'https://nextjs-news-fetcher.vercel.app/',
+    href: 'https://next-news-fetcher.vercel.app/',
     title: 'News Fetcher built by NextJS & React',
   },
   {
