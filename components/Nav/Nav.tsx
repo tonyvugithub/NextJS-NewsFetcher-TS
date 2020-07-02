@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import NavLink from './NavLink';
 import { useSelector } from 'react-redux';
 import { selectThemeMode } from '../../store/slices/themeSlice';
@@ -34,22 +35,24 @@ const Nav: React.FC<NavProps> = () => {
         } `}
       >
         <div className="container">
-          <a className="navbar-brand" href="/">
-            <div
-              style={{
-                fontFamily: 'Merriweather, serif',
-                padding: '10px',
-                backgroundColor: `${
-                  themeMode == 'light' ? 'black' : '#f57f17'
-                }`,
-                color: `${themeMode == 'light' ? '#fafafa' : 'white'}`,
-                borderRadius: '7px 0',
-                fontWeight: 'bold',
-              }}
-            >
-              NextNews <i className="fas fa-rss"></i>
-            </div>
-          </a>
+          <Link href="/">
+            <a className="navbar-brand">
+              <div
+                style={{
+                  fontFamily: 'Merriweather, serif',
+                  padding: '10px',
+                  backgroundColor: `${
+                    themeMode == 'light' ? 'black' : '#f57f17'
+                  }`,
+                  color: `${themeMode == 'light' ? '#fafafa' : 'white'}`,
+                  borderRadius: '7px 0',
+                  fontWeight: 'bold',
+                }}
+              >
+                NextNews <i className="fas fa-rss"></i>
+              </div>
+            </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
