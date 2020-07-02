@@ -41,7 +41,8 @@ const LandingPage: NextPage<LandingPageProps> = () => {
             themeMode == 'light' ? 'cyan-text' : 'yellow-text'
           }`}
         >
-          built by NextJS framework, React, Redux, Bootstrap and Hacker News API
+          built by NextJS framework, React, Redux, Typescript, Bootstrap and
+          Hacker News API
         </p>
         <Link href="/news">
           <a>
