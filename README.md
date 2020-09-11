@@ -1,30 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Link to deployment: [https://next-news-fetcher.vercel.app/](https://next-news-fetcher.vercel.app/)
 
-First, run the development server:
+## Available Scripts
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+In the project directory, you can run:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### `npm run dev`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+## App Features
+ - __News Fetcher App__ that allows users to utilize the power of HackerNews API to search for desired news by typing in the topics in the __Search Module__
+ - Users can fetch the news by clicking one of the preset topics or by typing in the search bar
+ - The app also features option to allow users to switch between two different color themes 
+ - App is written in Next.js with TypeScript support to optimize performance on machines with slow internet connections
+ 
+## Built with
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### `Next.js`, `React`, `Bootstrap UI`, `HackerNews API`
